@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>path_tracker</name>
+  <version>1.11.2</version>
+  <description>
+    Package including a path generator node and a pure pursuit node.
+    Implementing a feature where the TurtleBot tracks a piece-wise path
+    based on inputting the goal pose in Rviz.  </description>
+  <maintainer email="wsh@robotis.com">Sungho Woo</maintainer>
+  <license>Proprietary</license>
+  <author email = "wsh@robotis.com">Sungho Woo</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

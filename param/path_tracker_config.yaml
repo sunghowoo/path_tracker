@@ -1,0 +1,14 @@
+/**:
+  path_generator:
+    ros__parameters:
+      qos_depth: 10
+      aligning_path_length: 0.7
+
+  pure_pursuit:
+    ros__parameters:
+      qos_depth: 10
+      lookahead_distance: 0.4
+      p_gain: 5.0
+      d_gain: 5.0
+      max_linear_speed: 0.2
+      max_angular_speed: 2.38
